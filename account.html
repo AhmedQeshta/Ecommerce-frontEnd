@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Account - A7mStore | ECommerce Website design</title>
+    <!-- font family  google-->
+    <link href="https://fonts.googleapis.com/css2?family=Recursive&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!-- style -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- header and nav bar html -->
+    <div class="header_product">
+        <div class="container">
+            <!-- nav Bar html -->
+            <div class="navbar">
+                <div class="log">
+                    <img src="images/logo.png" width="125px" alt="logo Website">
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="account.html">Account</a></li>
+                    </ul>
+                </nav>
+                <a href="cart.html">                
+                    <img src="images/cart.png" alt="cart img" width="30px" height="30px">
+                </a>
+                <img src="images/menu.png" id="menu" class="menu-icon" onclick="menutoggle()" alt="menu">
+            </div>
+        </div>
+    </div>
+
+    <!-- account page -->
+    <div class="account-page">
+        <div class="container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="images/image1.png" alt="image1" width="100%">
+                </div>
+                <div class="col-2">
+                    <div class="form-container">
+                        <div class="form-btn">
+                            <span onclick="login()">LogeIn</span>
+                            <span onclick="register()" >Register</span>
+                            <hr id="Indicator">
+                        </div>  
+                        <form id="LoginForm" action="#" method="POST">
+                            <input type="email" placeholder="Email">
+                            <input type="password" placeholder="Password">
+                            <button class="btn" type="submit">LoGIn</button>
+                            <a href="#">Forget Password</a>
+                        </form>
+                        <form id="RegisterForm" action="#" method="POST">
+                            <input type="text" placeholder="User name">
+                            <input type="email" placeholder="Email">
+                            <input type="password" placeholder="Password">
+                            <input type="password" placeholder="Password Again">
+                            <button class="btn" type="submit">Register</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!------------------- footer--------------- -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur</p>
+                    <div class="app-logo">
+                        <img src="images/play-store.png" alt="play-store">
+                        <img src="images/app-store.png" alt="app-store">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/logo-white.png" alt="logo-white" srcset="">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur
+                        Lorem ipsum dolor sit amet consectetur
+                    </p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>UseFul Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+
+                <div class="footer-col-4">
+                    <h3>Fllow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2020 - A7mStore</p>
+        </div>
+    </div>
+    <!-- script -->
+
+    <script defer src="js/script.js"></script>
+</body>
+
+</html>

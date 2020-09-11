@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Cart - A7mStore | ECommerce Website design</title>
+    <!-- font family  google-->
+    <link href="https://fonts.googleapis.com/css2?family=Recursive&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!-- style -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- header and nav bar html -->
+    <div class="header_product">
+        <div class="container">
+            <!-- nav Bar html -->
+            <div class="navbar">
+                <div class="log">
+                    <img src="images/logo.png" width="125px" alt="logo Website">
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="account.html">Account</a></li>
+                    </ul>
+                </nav>
+                <img src="images/cart.png" alt="cart img" width="30px" height="30px">
+                <img src="images/menu.png" class="menu-icon" onclick="menutoggle()" alt="menu">
+            </div>
+        </div>
+    </div>
+
+    <!-- cart conteint -->
+    <div class="cart">
+        <div class="small-container">
+            <h2 class="title">All Products</h2>
+            <table>
+                <tr>
+                    <th>Product</th>
+                    <th>Quantity</th>
+                    <th>SubTotal</th>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="cart-info">
+                            <img src="images/buy-1.jpg" alt="buy-1" >
+                            <div>
+                                <p>Red Printed T-Shirt</p>
+                                <small>price : <strong>50.00$</strong></small>
+                                <br>
+                                <a href="#">Remove</a>
+                            </div>
+                        </div>
+                    </td>
+                    <td><input type="number" value="1" name="quantity" id="quantity"></td>
+                    <td>50.00$</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="cart-info">
+                            <img src="images/buy-2.jpg" alt="buy-2" >
+                            <div>
+                                <p>Red Printed T-Shirt</p>
+                                <small>price : <strong>70.00$</strong></small>
+                                <br>
+                                <a href="#">Remove</a>
+                            </div>
+                        </div>
+                    </td>
+                    <td><input type="number" value="1" name="quantity" id="quantity"></td>
+                    <td>70.00$</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="cart-info">
+                            <img src="images/buy-3.jpg" alt="buy-3" >
+                            <div>
+                                <p>Red Printed T-Shirt</p>
+                                <small>price : <strong>30.00$</strong></small>
+                                <br>
+                                <a href="#">Remove</a>
+                            </div>
+                        </div>
+                    </td>
+                    <td><input type="number" value="1" name="quantity" id="quantity"></td>
+                    <td>30.00$</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="cart-info">
+                            <img src="images/buy-1.jpg" alt="buy-1" >
+                            <div>
+                                <p>Red Printed T-Shirt</p>
+                                <small>price : <strong>50.00$</strong></small>
+                                <br>
+                                <a href="#">Remove</a>
+                            </div>
+                        </div>
+                    </td>
+                    <td><input type="number" value="1" name="quantity" id="quantity"></td>
+                    <td>50.00$</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="cart-info">
+                            <img src="images/buy-2.jpg" alt="buy-2" >
+                            <div>
+                                <p>Red Printed T-Shirt</p>
+                                <small>price : <strong>70.00$</strong></small>
+                                <br>
+                                <a href="#">Remove</a>
+                            </div>
+                        </div>
+                    </td>
+                    <td><input type="number" value="1" name="quantity" id="quantity"></td>
+                    <td>70.00$</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="cart-info">
+                            <img src="images/buy-3.jpg" alt="buy-3" >
+                            <div>
+                                <p>Red Printed T-Shirt</p>
+                                <small>price : <strong>30.00$</strong></small>
+                                <br>
+                                <a href="#">Remove</a>
+                            </div>
+                        </div>
+                    </td>
+                    <td><input type="number" value="1" name="quantity" id="quantity"></td>
+                    <td>30.00$</td>
+                </tr>
+            </table>
+
+            <div class="total-price">
+                <table>
+                    <tr>
+                        <td>SubTolal</td>
+                        <td>150.00$</td>
+                    </tr>
+                    <tr>
+                        <td>Tax</td>
+                        <td>5.00$</td>
+                    </tr>
+                    <tr>
+                        <td>Tolal</td>
+                        <td>155.00$</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#" class="btn">Ok, Buy it</a></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <!------------------- footer--------------- -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur</p>
+                    <div class="app-logo">
+                        <img src="images/play-store.png" alt="play-store">
+                        <img src="images/app-store.png" alt="app-store">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/logo-white.png" alt="logo-white" srcset="">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur
+                        Lorem ipsum dolor sit amet consectetur
+                    </p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>UseFul Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+
+                <div class="footer-col-4">
+                    <h3>Fllow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2020 - A7mStore</p>
+        </div>
+    </div>
+    <!-- script -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
